@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Este es el archivo que veo -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="icon" type="image/png" sizes="16x16"  href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <!--cabecera de la pagina con logo titulo y menu de navegacion-->
+        <div class="cajaHeader"><!--cajaHeader es padre de contenedorLogo y navegacion-->
+            <div class="contenedorLogo">
+              <a href="#" ><img src="./assets/img/codoacodo.png" alt="logo"></a>
+              <h2>Conf Bs As</h2>
+        
+            </div>            
+     
+            <nav class="navegacion">
+                <ul class="listaNav">
+                    <li><a class="linkNav" href="#laConferencia">La Conferencia</a></li>
+                    <li><a class="linkNav" href="#losOradores">Los Oradores</a></li>
+                    <li><a class="linkNav" href="#lugarYfecha">El lugar y la fecha</a></li>
+                    <li><a class="linkNav" href="#convierteteEnOrador">Conviértete en Orador</a></li>
+                    <li><a class="linkNavVerde" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
+            
+                </ul>
+        
+            </nav>
+        
+        </div>
+    <!--seccion la conferencia-->
+    <section id="laConferencia" class="laConfe">
+        
+            <div class="confeBsAs"> 
+     
+                <h1>Conf Bs As</h1>
+               
+                <p >Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creado el futuro del internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!.</p>
+                <div class="botones">
+                   <a href="#convierteteEnOrador" class="btnOrador">Quiero ser orador</a>
+                   <a href="./pages/comprar_tickets.html" class="btnTickets">Comprar tickets</a>
+                </div> 
+      
+            </div>
+           
+        
+    </section>
+    <!--fin seccion la conferencia-->
+    </header><!--fin de la cabecera de la pagina-->
+
+<main>
+    <!--Aca van las cards de cada orador con descripcion de cada uno-->
+    <section id="losOradores" class="Oradores">
+     
+        <h2><span class="h2conoce">CONOCE A LOS </span><br><span class="h2oradores">ORADORES</span></h2>
+       
+       
+        <div class="contenedorGrid">
+            
+                 <div class="gridCard">
+             
+                    <img src="./assets/img/stevejobs.jpg" alt="foto de Steve Jobs">
+                     <h4><span class="java">Java script</span><span class="react"> React</span></h4>
+                     <h3>Steve Jobs</h3>
+                     <p>Padre del primer ordenador personal y fundador de Apple Computer, probablemente la empresa más innovadora del sector, este mago de la informática fue uno de los más influyentes de la vertiginosa escalada tecnológica en que aún vive el mundo actual, contribuyendo decisivamente a la popularización de la informática. Sus ideas visionarias en el campo de los ordenadores personales, la música digital o la telefonía móvil revolucionaron los mercados y los hábitos de millones de personas durante más de tres décadas.                     
+                        </p>
+                </div>
+                <div class="gridCard">
+                    <img src="./assets/img/billgates.jpg" alt="foto de Bill Gates">
+                     <h4><span class="java">Java script</span><span class="react"> React</span></h4>
+                     <h3>Bill Gates</h3>
+                     <p>El talento de Gates se ha reflejado en múltiples programas informáticos, cuyo uso se ha difundido por todo el mundo como lenguajes básicos de los ordenadores personales; pero también en el éxito de una empresa flexible y competitiva, gestionada con criterios heterodoxos y con una atención especial a la selección y motivación del personal. Las innovaciones de Gates contribuyeron a la rápida difusión del uso de la informática personal.</p>
+               
+                </div>
+                <div class="gridCard">
+                     <img src="./assets/img/adalovelace.jpg" alt="foto de Ada Lovelace">
+                       <h4><span class="negocios">Negocios</span><span class="start">  Startups</span></h4>
+                     <h3>Ada Lovelace</h3>
+                      <p>Ada Lovelace es considerada por muchos la primera programadora de la historia. Matemática y escritora inglesa, hija del famoso poeta Lord Byron, revolucionó la ciencia con sus conocimientos matemáticos ideando, con el apoyo de sus amigos inventores, el primer programa informático. Lo más increíble de su historia, es que lo diseño cuando aún no existían los ordenadores.
+                        Cuando Ada vio por primera vez una máquina analítica, la antecesora de los ordenadores modernos, tuvo claro que quería trabajar con su creador, el científico Charles Babbage.                         
+                        </p>
+               
+                </div>
+              
+        </div>
+     
+     </section>
+    <!--Aca imagen y texto a la derecha-->
+    <section id="lugarYfecha" class="lugarYfecha">
+
+    
+    
+        <div class="lugar"> 
+            <!--aca va la imagen en el css-->           
+        </div>
+            <div class="infoLugar">
+                <h3> Bs As - Octubre</h3>
+                <p>Buenos Aires es la gran capital cosmopolita de Argentina. Posee imponentes edificios,la Casa Rosada, el Teatro Colón, y el moderno museo MALBA. Malba es un espacio cultural dinámico y participativo en el que se presentan exposiciones temporarias,en muchas ocasiones junto a otros museos alrededor del mundo, colecciones internacionales y muestras de arte argentino y latinoamericano.                 
+                </p>
+                <a href="" class="btnconoceMas">Conoce más</a>
+            </div>      
+        
+        
+     </section>
+<!--seccion de formulario para completar-->
+    <section id="convierteteEnOrador" class="formulario1">
+    
+         <h2><span class="h2conoce">CONVIERTETE EN UN </span> <br><span class="h2oradores"> ORADOR</span></h2>
+          <p class="soyOrador">Anótate como orador para dar una <span class="dots">charla ignite</span> . Cuentános de que quieres hablar!</p>
+          
+         <form action="" autocomplete="on" >
+            <div class="formInputs">
+             <input  type="text" class="cargaNyA" placeholder="Nombre"  required >
+             <input type="text"  class="cargaNyA" placeholder="Apellido" required>
+            </div>
+            <textarea name="" id="" class="textArea" cols="70" rows="4" placeholder="Sobre qué quieres hablar?" required></textarea>  
+
+            <p class="pCharla">Recuerda incluir un título para tu charla</p>
+           
+            <input type="submit" class="btnVerde" value="Enviar">
+          
+         </form>
+          
+    </section>
+<!-- pie de pagina con las anclas-->
+
+<footer>
+    <nav class="navFooter">
+        <ul class="listaNavFooter">
+            
+            <li><a  class="linkNavFooter" href="" >Preguntas frecuentes</a></li>
+            <li><a  class="linkNavFooter" href="" >Contáctanos</a></li>
+            <li><a  class="linkNavFooter" href="" >Prensa</a></li>
+            <li><a  class="linkNavFooter" href="" >Conferencias</a></li>
+            <li><a  class="linkNavFooter" href="" >Términos y condiciones</a></li>
+            <li><a  class="linkNavFooter" href="" >Privacidad</a></li>
+            <li><a  class="linkNavFooter" href="" >Estudiantes</a></li>
+            
+         
+            
+        </ul>
+
+    </nav>
+</footer>  
+</main>
+</body>
+</html>
